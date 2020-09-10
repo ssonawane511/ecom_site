@@ -1,0 +1,448 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RedStore</title>
+    <link rel="stylesheet" href="style/style.css" />
+
+    <!-- for font  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- for icons  -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- header start   -->
+    <div class="header">
+      <!--container  -->
+      <div class="conatainer">
+        <!-- nav start  -->
+        <div class="navbar">
+          <div class="logo">
+            <img src="images/logo.png" width="125px" />
+          </div>
+          <nav>
+            <ul id="menuitems">
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">Products</a>
+              </li>
+              <li>
+                <a href="">About</a>
+              </li>
+              <li>
+                <a href="">contact</a>
+              </li>
+              <li>
+                <a href="">Account</a>
+              </li>
+            </ul>
+          </nav>
+          <img src="images/cart.png" width="30px" height="30px" />
+          <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+        </div>
+
+        <!-- nav end  -->
+        <!-- next section -->
+
+        <!-- row  -->
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Give Your Workout <br />
+              A new Style
+            </h1>
+
+            <p>
+              Success isnt always about greatness. It's about consistency.
+              <br />Consistent hard work gains success. Greatness will come.
+            </p>
+
+            <!-- button -->
+
+            <a href="" class="btn"> Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <!-- image header  -->
+            <img src="images/image1.png" alt="" />
+          </div>
+        </div>
+
+        <!-- end next section -->
+      </div>
+    </div>
+    <!-- end header  -->
+
+    <!-- featured section  -->
+    <div class="categoryies">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="images/category-1.jpg" />
+          </div>
+          <div class="col-3">
+            <img src="images/category-2.jpg" />
+          </div>
+          <div class="col-3">
+            <img src="images/category-3.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- featured products  -->
+
+    <div class="small-container">
+      <h2 class="titletext">Featured Products</h2>
+
+      <div class="row">
+        <!-- product1 -->
+        <div class="col-4">
+          <img src="images/product-1.jpg" alt="" />
+          <h4>Red Priented T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>&#8377; 250</p>
+        </div>
+
+        <!-- product2 -->
+        <div class="col-4">
+          <img src="images/product-2.jpg" alt="" />
+          <h4>Hrx Shoes for Men</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>&#8377; 2500</p>
+        </div>
+
+        <!-- product3 -->
+        <div class="col-4">
+          <img src="images/product-3.jpg" alt="" />
+          <h4>trousers</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>&#8377; 500</p>
+        </div>
+
+        <!-- product4 -->
+        <div class="col-4">
+          <img src="images/product-4.jpg" alt="" />
+          <h4>Blue Priented T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>&#8377; 300</p>
+        </div>
+      </div>
+      <h2 class="titletext">Latest Products</h2>
+      <div class="row">
+        <!-- product1 -->
+        <div class="col-4">
+          <img src="images/product-5.jpg" alt="" />
+          <h4>Red Priented T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>&#8377; 250</p>
+        </div>
+
+        <!-- product2 -->
+        <div class="col-4">
+          <img src="images/product-6.jpg" alt="" />
+          <h4>Hrx Shoes for Men</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>&#8377; 2500</p>
+        </div>
+
+        <!-- product3 -->
+        <div class="col-4">
+          <img src="images/product-7.jpg" alt="" />
+          <h4>trousers</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>&#8377; 500</p>
+        </div>
+
+        <!-- product4 -->
+        <div class="col-4">
+          <img src="images/product-8.jpg" alt="" />
+          <h4>Blue Priented T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>&#8377; 300</p>
+        </div>
+      </div>
+      <div class="row">
+        <!-- product1 -->
+        <div class="col-4">
+          <img src="images/product-9.jpg" alt="" />
+          <h4>Red Priented T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>&#8377; 250</p>
+        </div>
+
+        <!-- product2 -->
+        <div class="col-4">
+          <img src="images/product-10.jpg" alt="" />
+          <h4>Hrx Shoes for Men</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>&#8377; 2500</p>
+        </div>
+
+        <!-- product3 -->
+        <div class="col-4">
+          <img src="images/product-11.jpg" alt="" />
+          <h4>trousers</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>&#8377; 500</p>
+        </div>
+
+        <!-- product4 -->
+        <div class="col-4">
+          <img src="images/product-12.jpg" alt="" />
+          <h4>Blue Priented T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>&#8377; 300</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- offer  -->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="images/exclusive.png" class="offer-img" />
+          </div>
+          <div class="col-2">
+            <p>Exclusive Available</p>
+            <h1>Smart Band 4</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
+              vitae sapiente ut magni harum, saepe asperiores, laudantium
+              excepturi provident in rem tenetur ab possimus vero, aliquam animi
+              sunt unde distinctio.
+            </p>
+            <a href="" class="btn"> Buy Now &#8594; </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- testomonial  -->
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+              perferendis velit libero dolore, laborum repudiandae ipsa eius,
+              itaque laudantium exercitationem facere quisquam aspernatur earum
+              quos veritatis a sed sit dolorum!
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/user-1.png" />
+            <h3>Priaynka Patil</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+              perferendis velit libero dolore, laborum repudiandae ipsa eius,
+              itaque laudantium exercitationem facere quisquam aspernatur earum
+              quos veritatis a sed sit dolorum!
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <img src="images/user-2.png" />
+            <h3>sagar sonawane</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+              perferendis velit libero dolore, laborum repudiandae ipsa eius,
+              itaque laudantium exercitationem facere quisquam aspernatur earum
+              quos veritatis a sed sit dolorum!
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/user-3.png" />
+            <h3>Saloni Sharma</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- brands  -->
+
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="images/logo-godrej.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo-oppo.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo-coca-cola.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo-paypal.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo-philips.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="conatainer">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios Mobile phones</p>
+            <div class="app-logo">
+              <img src="images/play-store.png" alt="" />
+              <img src="images/app-store.png" alt="" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo-white.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              obcaecati laborum ad facere ipsa, minima deserunt eum ipsum, fugit
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2020 - sagar sonawane</p>
+      </div>
+    </div>
+    <!-- 
+    js for toggle menu  -->
+
+    <script>
+      var menuitems = document.getElementById("menuitems");
+      menuitems.style.maxHeight = "0px";
+      function menutoggle() {
+        if (menuitems.style.maxHeight == "0px") {
+          menuitems.style.maxHeight = " 220px";
+        } else {
+          menuitems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
